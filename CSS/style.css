@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.id{
+  transition: width 2s, height 4s;
+}
+.id:hover {
+  width: 3px;
+  height: 3px;
+}
+.nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img{
+    width: 150px;
+    padding: 8px;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+  }
+  .right {
+    background-color:white;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  header {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  /* Container for flexboxes */
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+
+  /* Style the footer */
+  footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+.start h1{
+  text-align: left;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 32px;
+  color: dark blue;
+}
+.end{
+ display: grid;
+ grid-template-columns: 2fr 1fr 1fr;
+}
+.journey{
+  margin-right: 4rem;
+}
+.li{
+  margin-left: 6rem;
+}
+@media(max-width:1200px){
+  #home .bg{
+    flex-flow: column;
+    padding: 17px;
+  }
+  #home .text{
+    text-align:center;
+  }
+}
+
+  
+
+
+
+
+
+
